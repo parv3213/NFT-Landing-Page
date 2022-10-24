@@ -2,7 +2,11 @@
 module.exports = {
   content: ['./index.html', './src/**/*.{ts,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        black: '#202020',
+      },
+    },
   },
   screens: {
     xs: '480px',

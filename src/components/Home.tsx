@@ -12,7 +12,7 @@ const Home = () => {
       id="home"
       className="bg-white w-[100%] flex flex-col justify-center items-center"
       style={{ minHeight: 'calc(100vh - 5rem)' }}>
-      <div className="w-[75%] h-[75vh] flex sm:flex-row flex-col justify-between items-center">
+      <div className="w-[75%] h-[75vh] flex sm:flex-row flex-col-reverse justify-between items-center">
         <div className="w-[50%] sm:text-left text-center">
           <div className="w-[80%] font-medium">
             <h2 className="text-[3rem]">

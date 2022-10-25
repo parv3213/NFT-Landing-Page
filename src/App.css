@@ -14,3 +14,11 @@ html {
 .cursiveFont {
   font-family: 'Akaya Telivigala';
 }
+
+.swiper-slide {
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

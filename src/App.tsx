@@ -14,7 +14,8 @@ function App() {
       <Navigation />
       <Home />
       <About />
-      <Roadmap />
+      {/* TODO complete */}
+      {/* <Roadmap /> */}
       <Showcase />
       <Team />
       <Faq />

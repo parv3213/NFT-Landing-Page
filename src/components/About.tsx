@@ -20,7 +20,7 @@ import { Autoplay, EffectCards, Pagination, Navigation } from 'swiper'
 
 const About = () => {
   return (
-    <div className="h-[100vh] w-[100%] bg-black flex justify-center">
+    <section id="about" className="h-[100vh] w-[100%] bg-black flex justify-center">
       <div className="w-[85%] text-white flex sm:flex-row flex-col items-center">
         <div className="w-[50%]">
           <Swiper
@@ -79,7 +79,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

@@ -18,9 +18,9 @@ const Navigation = () => {
         <div className="w-[85%] flex justify-between items-center">
           <p className="cursiveFont text-[4rem] font-bold">W.</p>
           <div className="lg:block hidden">
-            {navigations.map((item) => {
+            {navigations.map((item, index) => {
               return (
-                <a href={`#${item.toLocaleLowerCase()}`} className="mx-4">
+                <a href={`#${item.toLocaleLowerCase()}`} className="mx-4" key={index}>
                   {item}
                 </a>
               )
@@ -47,9 +47,9 @@ const Navigation = () => {
         className={`lg:hidden block ${!open && 'hidden'} w-[100%] fixed z-[50] bg-white/80 backdrop-blur-[2px]`}
         style={{ height: 'calc(100vh - 5rem)' }}>
         <div className="flex flex-col justify-center items-center h-[100%]">
-          {navigations.map((item) => {
+          {navigations.map((item, index) => {
             return (
-              <a href={`#${item.toLocaleLowerCase()}`} className="mx-4 mb-6">
+              <a href={`#${item.toLocaleLowerCase()}`} className="mx-4 mb-6" key={index}>
                 {item}
               </a>
             )

@@ -20,9 +20,9 @@ import { Autoplay, EffectCards, Pagination, Navigation } from 'swiper'
 
 const About = () => {
   return (
-    <section id="about" className="h-[100vh] w-[100%] bg-black flex justify-center">
-      <div className="w-[85%] text-white flex sm:flex-row flex-col items-center">
-        <div className="w-[50%]">
+    <section id="about" className="min-h-[100vh] w-[100%] bg-black flex justify-center">
+      <div className="w-[85%] text-white flex xl:flex-row flex-col items-center m-8">
+        <div className="flex-1 xl:mb-0 mb-8">
           <Swiper
             pagination={{
               type: 'fraction',
@@ -36,7 +36,7 @@ const About = () => {
             grabCursor={true}
             scrollbar={{ draggable: true }}
             modules={[Autoplay, EffectCards, Pagination, Navigation]}
-            className="mySwiper w-[25vw] h-[70vh] text-black">
+            className="mySwiper md:w-[25vw] ss:w-[50vw] w-[70vw] lg:h-[70vh] h-[45vh]  text-black">
             <SwiperSlide>
               <img src={bighead} alt="weirdoImg" className="bg-skin h-[100%] w-[100%]" />
             </SwiperSlide>
@@ -61,8 +61,8 @@ const About = () => {
           </Swiper>
         </div>
 
-        <div className="w-[50%]">
-          <div className="w-[80%]">
+        <div className="flex-1">
+          <div className="xl:w-[80%] w-[100%] xl:text-left text-center">
             <h2 className="text-[3rem] font-semibold">
               Welcome To The <br className="sm:block hidden" /> Weirdos Club.
             </h2>

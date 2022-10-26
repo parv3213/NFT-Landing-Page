@@ -12,13 +12,13 @@ const Home = () => {
       id="home"
       className="bg-white w-[100%] flex flex-col justify-center items-center"
       style={{ minHeight: 'calc(100vh - 5rem)' }}>
-      <div className="w-[75%] h-[75vh] flex sm:flex-row flex-col-reverse justify-between items-center">
-        <div className="w-[50%] sm:text-left text-center">
-          <div className="w-[80%] font-medium">
-            <h2 className="text-[3rem]">
-              Discover A New Era <br className="sm:block hidden" /> Of Cool
+      <div className="md:w-[75%] m-h-[75vh] flex md:flex-row flex-col-reverse justify-between items-center">
+        <div className="md:w-[50%] w-[100%] md:text-left text-center">
+          <div className="font-medium">
+            <h2 className="text-[2rem]">
+              Discover A New Era <br className="md:block hidden" /> Of Cool
             </h2>
-            <p className="cursiveFont text-[3rem]">
+            <div className="cursiveFont text-[2rem]">
               <Typewriter
                 options={{
                   autoStart: true,
@@ -37,7 +37,7 @@ const Home = () => {
                     .start()
                 }}
               />
-            </p>
+            </div>
             <p className="text-[1.25rem] text-black/[0.6] mb-4">Bored Of Apes? Try Something New.</p>
             <Button text={'Explore'} />
           </div>
@@ -47,7 +47,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="w-[85%]">
+      <div className="w-[85%] lg:block hidden">
         <NFTExplore style="self-start w-[6rem] h-[6rem]" styleSecondary="w-[3rem] h-[3rem]" />
       </div>
     </section>

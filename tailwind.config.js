@@ -8,8 +8,8 @@ module.exports = {
         skin: 'rgb(238, 237, 222)',
       },
       animation: {
-        linear: 'move 20s linear infinite normal',
-        'linear-reverse': 'move 20s linear infinite reverse',
+        linear: 'move 15s linear infinite normal',
+        'linear-reverse': 'move 15s linear infinite reverse',
       },
       keyframes: {
         move: {
@@ -18,14 +18,22 @@ module.exports = {
         },
       },
     },
-  },
-  screens: {
-    xs: '480px',
-    ss: '620px',
-    sm: '768px',
-    md: '1060px',
-    lg: '1200px',
-    xl: '1700px',
+    screens: {
+      sm: '661px',
+      // => @media (min-width: 640px) { ... }
+
+      md: '769px',
+      // => @media (min-width: 768px) { ... }
+
+      lg: '1025px',
+      // => @media (min-width: 1024px) { ... }
+
+      xl: '1281px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1537px',
+      // => @media (min-width: 1536px) { ... }
+    },
   },
   plugins: [],
 }

@@ -5,10 +5,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .animation-paused {
+    animation-play-state: paused;
+  }
+}
+
 html {
   font-family: 'sora', sans-serif;
   box-sizing: border-box;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .cursiveFont {

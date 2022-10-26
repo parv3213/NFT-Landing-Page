@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/NFT-Landing-Page/static/css/main.96b58624.css",
+    "main.js": "/NFT-Landing-Page/static/js/main.88f59b78.js",
+    "static/media/gif.mp4": "/NFT-Landing-Page/static/media/gif.d4bf2265b2f4a01a1582.mp4",
+    "static/media/bighead (5).svg": "/NFT-Landing-Page/static/media/bighead (5).241665b636663a2750f1ae56e8b3b2cd.svg",
+    "static/media/bighead (6).svg": "/NFT-Landing-Page/static/media/bighead (6).36a0abd7cfc3f0ede0351714db731416.svg",
+    "static/media/bighead (2).svg": "/NFT-Landing-Page/static/media/bighead (2).a48328a255d7f7eed754e5b39381d3e6.svg",
+    "static/media/bighead.svg": "/NFT-Landing-Page/static/media/bighead.77537da970bd6f942e66cf646388f196.svg",
+    "static/media/bighead (1).svg": "/NFT-Landing-Page/static/media/bighead (1).ade782a95a1c7ddd4f8881262b500fe0.svg",
+    "static/media/bighead (3).svg": "/NFT-Landing-Page/static/media/bighead (3).a27b9cfa49ed65db97a4daa9710ed582.svg",
+    "static/media/bighead (4).svg": "/NFT-Landing-Page/static/media/bighead (4).f7951b2f711d694a3f42302b98eccc5a.svg",
+    "index.html": "/NFT-Landing-Page/index.html",
+    "static/media/arrowDown.svg": "/NFT-Landing-Page/static/media/arrowDown.a91135ec0ac16cdc84f98651053317d6.svg",
+    "static/media/menu.svg": "/NFT-Landing-Page/static/media/menu.113d59e2703636dfe157ec8ec962d598.svg",
+    "main.96b58624.css.map": "/NFT-Landing-Page/static/css/main.96b58624.css.map",
+    "main.88f59b78.js.map": "/NFT-Landing-Page/static/js/main.88f59b78.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96b58624.css",
+    "static/js/main.88f59b78.js"
+  ]
+}

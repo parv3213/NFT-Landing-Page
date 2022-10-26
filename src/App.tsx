@@ -14,6 +14,7 @@ function App() {
       <Navigation />
       <Home />
       <About />
+      {/* TODO add fixed up arrow */}
       {/* TODO complete */}
       {/* <Roadmap /> */}
       <Showcase />

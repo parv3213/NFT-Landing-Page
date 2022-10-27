@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         black: '#202020',
         skin: 'rgb(238, 237, 222)',
+        dimBlack: 'rgba(255, 255, 255, 0.6)',
       },
       animation: {
         linear: 'move 15s linear infinite normal',

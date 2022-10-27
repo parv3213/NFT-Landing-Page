@@ -38,7 +38,7 @@ const Home = () => {
                 }}
               />
             </div>
-            <p className="text-[1.25rem] text-black/[0.6] mb-4">Bored Of Apes? Try Something New.</p>
+            <p className="text-[1.25rem] text-dimBlack mb-4">Bored Of Apes? Try Something New.</p>
             <Button text={'Explore'} />
           </div>
         </div>

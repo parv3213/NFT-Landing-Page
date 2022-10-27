@@ -10,7 +10,7 @@ import Team from './components/Team'
 
 function App() {
   return (
-    <div className="App w-[100%]">
+    <div className="App w-[100%] overflow-hidden">
       <Navigation />
       <Home />
       <About />

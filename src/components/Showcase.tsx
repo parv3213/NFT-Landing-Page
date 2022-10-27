@@ -11,7 +11,7 @@ import bighead5 from '../assets/bighead (5).svg'
 
 const Showcase = () => {
   return (
-    <section id="showcase" className="h-[100vh] w-[100%] bg-black/90">
+    <section id="showcase" className="min-h-[100vh] w-[100%] bg-black/90">
       <div className="h-[100%] w-[100%] flex flex-col justify-center items-center">
         <div className="flex animate-linear hover:animation-paused">
           <NFTCard nft={bighead} nftId="421" nftPrice="4.2" />

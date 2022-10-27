@@ -48,7 +48,7 @@ const Home = () => {
       </div>
 
       <div className="w-[85%] lg:block hidden">
-        <NFTExplore style="self-start w-[6rem] h-[6rem]" styleSecondary="w-[3rem] h-[3rem]" />
+        <NFTExplore style1="self-start w-[6rem] h-[6rem]" style2="w-[3rem] h-[3rem]" />
       </div>
     </section>
   )

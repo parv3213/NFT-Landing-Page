@@ -39,7 +39,7 @@ const Navigation = () => {
             className={`lg:hidden block ${!open && 'hidden'}`}
             onClick={handleClick}
           />
-          <NFTExplore style="lg:hidden block w-[4rem] h-[4rem]" styleSecondary="w-[1.5rem] h-[1.5rem]" />
+          <NFTExplore style1="lg:hidden block w-[4rem] h-[4rem]" style2="w-[1.5rem] h-[1.5rem]" />
         </div>
       </div>
 
